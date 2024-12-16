@@ -59,4 +59,3 @@ document.querySelectorAll('.plate').forEach((plate) => {
         .catch(error => console.error('Ошибка запроса:', error));
     })
 });
-

@@ -2,7 +2,6 @@
 
 if ( $_SERVER['REQUEST_METHOD'] === 'DELETE' ) {
     
-    // $id = intval(file_get_contents("php://input"));
     $input = json_decode(file_get_contents("php://input"), true);
     $id = intval($input['id']);
     $imagePath = '../' . $input['image'];
